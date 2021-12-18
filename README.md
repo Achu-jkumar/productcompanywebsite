@@ -312,6 +312,191 @@ Publish the website in the given URL.
 </body>
 </html>
 ```
+### Program of Layout:
+```
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: whitesmoke;
+  color: #17421d;
+}
+.container {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  box-shadow: 15px 15px 8px gray;
+}
+
+.banner {
+  display: block;
+  width: 100%;
+  height: 270px;
+  text-align: center;
+  font-size: 60px;
+  background-image: url("/static/img/forest.jpg");
+  background-size: 100% 100%;
+  margin: 0px 0px 0px 0px;
+  padding-top: 150px;
+  color: #f8f4f8;
+}
+
+.menu {
+  display: block;
+  width: 100%;
+  height: 50px;
+  font-size: larger;
+  background-color: #63f34f;
+  text-align: center;
+  padding-top: 15px;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+}
+
+.menuitem {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.menuitemselected {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #16d1ae;
+}
+
+.menuitem a {
+  text-decoration: none;
+  color:#0faa24;
+}
+
+.content {
+  display: block;
+  width: 100%;
+  background-color: #cffffd;
+  min-height: 500px;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+}
+.homecontent {
+  min-height: 500px;
+  margin: 10px 10px 10px 10px;
+}
+.homecontent h1 {
+  text-align: left;
+}
+.homecontent img {
+  float: right;
+  width: 400px;
+  height: 300px;
+  margin-left: 10px;
+}
+
+.contenttext {
+  text-align: justify;
+  font-style:italic;
+  font-size: larger;
+}
+
+.productcontent {
+  min-height: 500px;
+  margin: 10px 10px 10px 10px;
+}
+
+.productcontent h1 {
+  text-align: left;
+}
+.productitem1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  margin-bottom: 5px;
+}
+.procontenttext{
+  text-align: justify;
+  font-style:italic;
+  font-size: larger;
+}
+.itemname{
+  display: block;
+  font-size: 50px;
+}
+.itemprice{
+  display: block;
+  font-size: 40px;
+}
+.contact content{
+  display: block;
+  width: 100%;
+  background-color: #cffffd;
+  min-height: 500px;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  
+}
+
+.contactus content h1 {
+  text-align: left;
+}
+.contacttext{
+  text-align: justify;
+  font-style: normal;
+  font-size: 25px;
+
+}
+.content3{
+  display: block;
+  width: 100%;
+  background-color: #cffffd;
+  min-height: 500px;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+}
+.menuitem1{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  color:red;
+}
+.menuitem2{
+  
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  color:blue;
+}
+.menuitem3{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: yellow;
+}
+.contactcontent{
+  text-align: left;
+}
+
+
+.footer {
+  display: block;
+  width: 100%;
+  height: 70px;
+  background-color: #5bb045;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0px 0px 0px 0px;
+  color: #9c1018;
+}
+```
 
 
 ## OUTPUT:
