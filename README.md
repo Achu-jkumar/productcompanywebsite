@@ -40,7 +40,18 @@ Publish the website in the given URL.
 
 ### Home Page:
 
-![output](./images/homepage.jpg)
+![homepage](./homepage.png)
+
+### Product Page:
+
+![github](./productpage.png)
+
+### People Page:
+
+![github](./peoplepage.png)
+### Contact Page:
+
+![gitub](./contactpage.png)
 
 ## Result:
 
