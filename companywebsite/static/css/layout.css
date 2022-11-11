@@ -37,7 +37,8 @@ body {
   text-align: center;
   padding-top: 15px;
   margin: 0px 0px 0px 0px;
-  border-width: 1px;
+  border-width: 1px;  
+
 }
 
 .menuitem {
@@ -134,4 +135,26 @@ body {
   padding-top: 10px;
   margin: 0px 0px 0px 0px;
   color: #9c1018;
+}
+.container1{
+  width: 100%;
+  background-color: #5bb045;
+  min-height: 7cm;
+  padding-top: 50px;
+}
+.menubar1{
+  display: inline-block;
+  background-color: #17421d;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.content1{
+  display: block;
+  width:100%;
+  min-height: 300px;
+  background-color: #9c1018;
+  padding-left: 30px;
+}
+.text{
+  text-align: justify;
 }
